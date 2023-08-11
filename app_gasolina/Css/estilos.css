@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(/Images/posto.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    /*background: linear-gradient(rgba(179, 136, 17, 0.911), white);*/
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#central{
+    width: 500px;
+    padding: 20px;
+    background: white;
+    border-radius: 30px;
+    box-shadow: 5px 5px 10px black;
+    display: flex;
+    flex-direction: column;
+}
+
+#central form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#central form input{
+    padding: 8px 12px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    background: rgb(201, 197, 197);
+    margin-top: 4px;
+    margin-bottom: 20px;
+    width: 400px;
+    
+}
+
+#central form label{
+    color: rgb(54, 21, 172);
+    font-size: 18px;
+    text-align: center;
+    width: 400px;
+}
+
+#central form button{
+    width: 150px;
+    border-radius: 5px;
+    cursor: pointer;
+    color: aliceblue;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+}
+
+#central form button:hover{
+    -xpedu-transform: scale(0.5);
+    -ms-transform: sacele(0.5);
+    transform: scale(105%);
+    
+} 
+
+#central span{
+    color: cadetblue;  
+    font-family: Georgia; 
+}
